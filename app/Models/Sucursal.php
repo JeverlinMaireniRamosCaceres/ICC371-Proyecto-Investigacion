@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Sucursal extends Model
 {
     protected $primaryKey = 'idSucursal';
+    protected $table = 'sucursales';
 
     public function encargado()
     {

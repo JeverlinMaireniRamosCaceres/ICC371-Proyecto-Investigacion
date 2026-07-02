@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Editorial extends Model
 {
     protected $primaryKey = 'idEditorial';
+    protected $table = 'editoriales';
 
     public function proveedor()
     {

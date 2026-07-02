@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Autor extends Model
 {
     protected $primaryKey = 'idAutor';
+    protected $table = 'autores';
 
     public function libros()
     {

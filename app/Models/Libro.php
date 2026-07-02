@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Libro extends Model
 {
     protected $primaryKey = 'idLibro';
+    protected $table = 'libros';
 
     public function genero()
     {
